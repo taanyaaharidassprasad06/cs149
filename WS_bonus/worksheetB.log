@@ -1,0 +1,40 @@
+ 1001  git clone https://github.com/taanyaaharidassprasad06/cs149.git
+ 1002  cd cs149
+ 1003  mkdir WS_bonus
+ 1004  cd WS_bonus
+ 1005  wget -O out.pdf https://tinyurl.com/yy94jltt
+ 1006  curl -L https://tinyurl.com/yy94jltt -o out.pdf
+ 1007  ls -latr
+ 1008  history > cmds.log
+ 1009  cd ..
+ 1010  git status
+ 1011  git add .
+ 1012  git commit -m "First commit"
+ 1013  git push
+ 1014  cd ~
+ 1015  git clone git://g.csail.mit.edu/xv6-labs-2023
+ 1016  cd xv6-labs-2023
+ 1017  make qemu
+ 1018  xcode-select --install
+ 1019  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+ 1020  brew tap riscv/riscv
+ 1021  brew install riscv-tools
+ 1022  make qemu
+ 1023  brew install riscv-gnu-toolchain
+ 1024  which riscv64-unknown-elf-gcc
+ 1025  ls
+ 1026  touch user/sleep.c
+ 1027  code user/sleep.c
+ 1028  code user/echo.c
+ 1029  code user/grep.c
+ 1030  code user/rm.c
+ 1031  code kernel/sysproc.c
+ 1032  make qemu
+ 1033  code Makefile
+ 1034  make qemu
+ 1035  brew install qemu
+ 1036  make qemu
+ 1037  cd ..
+ 1038  cd cs149
+ 1039  history > worksheetB.log
+ 1040  head worksheetB.log
