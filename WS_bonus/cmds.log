@@ -1,0 +1,16 @@
+  992  cd condaprojects/cs122
+  993  conda activate cs122
+  994  jupyter lab
+  995  cd condaprojects/cs122
+  996  conda activate cs122
+  997  jupyter lab
+  998  cd condaprojects/cs122
+  999  conda activate cs122
+ 1000  jupyter lab
+ 1001  git clone https://github.com/taanyaaharidassprasad06/cs149.git
+ 1002  cd cs149
+ 1003  mkdir WS_bonus
+ 1004  cd WS_bonus
+ 1005  wget -O out.pdf https://tinyurl.com/yy94jltt
+ 1006  curl -L https://tinyurl.com/yy94jltt -o out.pdf
+ 1007  ls -latr
