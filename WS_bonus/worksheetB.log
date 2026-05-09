@@ -38,3 +38,9 @@
  1038  cd cs149
  1039  history > worksheetB.log
  1040  head worksheetB.log
+ 1000  git push
+ 1001  cd xv6-labs-2023
+ 1002  ./grade-lab-util sleep
+ 1003  cd cs149
+ 1004  cd ..
+ 1005  cd cs149
